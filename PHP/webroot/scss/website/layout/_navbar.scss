@@ -1,0 +1,136 @@
+// --------------------------------------------------------
+// Navbar - site navigation, nested in the #main-header <header> 
+// and within the #main-footer <footer>
+// #main-nav + #footer-nav
+
+
+
+// <nav>
+#nav-process {
+	position: fixed;
+	top: 45px;
+	left: 40px;
+	}
+#nav-philosophy {
+	position: fixed;
+	top: 45px;
+	right: 40px;
+	}
+#nav-contact {
+	position: fixed;
+	bottom: 45px;
+	left: 40px;
+	}
+#nav-playground {
+	position: fixed;
+	bottom: 45px;
+	right: 40px;
+	}
+#main-nav, #footer-nav {
+	
+	.nav-item {
+		a {
+			color: $text-white;
+			font-size: 1.25rem;
+			text-decoration: none;
+			text-transform: uppercase;	
+
+			padding: 10px 15px;
+			margin: -10px -15px;
+			 -webkit-transition: color 250ms ease;
+				-moz-transition: color 250ms ease;
+				  -o-transition: color 250ms ease;
+				 -ms-transition: color 250ms ease;
+					 transition: color 250ms ease;
+
+			&:hover {
+				color: $text-white;
+			}
+			&.active {
+				color: $color-brand-dimmed;
+			}
+
+			&.nav-process {
+				
+			}
+
+			&.nav-philosophy {
+
+			}
+
+		}
+	}
+
+}
+
+// --------------------------------------------------------
+// --- Nav Toggle --------------------------
+// Navbar Toggle - checbox and label used to trigger the 
+// mobile navigation menu (applies '.mobile-menu' to the 
+// <body> via javascript)
+#nav-toggle { 
+	position: fixed;
+	top: 30px; right: 40px;
+	z-index: 999;
+	margin: 0 0;
+	cursor: pointer;
+	line-height: 0px;
+	min-width: 25px;
+	* {
+		line-height: 0px;
+		box-sizing: border-box;
+		 -webkit-transition: all 0.2s ease-in-out;
+			-moz-transition: all 0.2s ease-in-out;
+			  -o-transition: all 0.2s ease-in-out;
+				 transition: all 0.2s ease-in-out;
+	}
+}
+// --- Checkbox ----------------------------
+#nav-toggle-checkbox {
+	display: none;
+	 -webkit-appearance: none;
+		-moz-appearance: none;
+}
+#nav-toggle label {
+	position: relative;
+	line-height: 0px;
+	cursor: pointer;
+	display: block;
+}
+#nav-toggle, #nav-toggle label {
+	height: 30px;
+	width: 25px;
+	padding-top: 10px;
+	text-align: right;
+	text-align: -webkit-right;
+}
+#nav-toggle {
+	height: 40px;
+}
+#nav-toggle-switch {
+
+	.bar {
+		height: 3px;
+		width: 25px;
+		background-color: $color-brand-orange;
+		display: block;
+		
+		&.diagonal, &.horizontal {
+			position:relative;
+			float: left;
+		}
+		&.part-1 {
+			margin-top: 0px;
+		}
+		&.part-2 {
+			margin-top: 4px;
+		}
+		&.part-3 {
+			margin-top: 4px;
+		}
+	}
+}
+
+#nav-toggle-checkbox:checked ~ #nav-toggle-switch .part-1 { transform: rotate( 225deg); -webkit-transform: rotate( 225deg); margin-top: 5px; margin-left: 0px; }
+#nav-toggle-checkbox:checked ~ #nav-toggle-switch .part-2 { /*visibility: hidden; */ display: none; }
+#nav-toggle-checkbox:checked ~ #nav-toggle-switch .part-3 { transform: rotate(-225deg); -webkit-transform: rotate(-225deg); margin-top: -10px; margin-right: -0px; margin-top: -3px; }

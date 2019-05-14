@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="197px" viewBox="0 0 197 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>strategic blueprint</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 199.929915 199.929915 199.929915 199.929915 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CKD-Home-Process" transform="translate(-842.000000, -1286.000000)">
+            <g id="Strategic-BluePrint" transform="translate(240.000000, 1251.000000)">
+                <g id="strategic-blueprint" transform="translate(601.000000, 34.000000)">
+                    <g id="Group-15">
+                        <polyline id="Stroke-3" stroke="#574F92" stroke-width="4.118" stroke-linecap="round" points="88.4837607 97.58 109.352137 76.7116239 130.218803 97.58"></polyline>
+                        <path d="M129.420171,151.10906 L154.363761,126.16547" id="Stroke-5" stroke="#574F92" stroke-width="4.922" stroke-linecap="round"></path>
+                        <path d="M154.364274,151.10906 L129.420684,126.16547" id="Stroke-7" stroke="#574F92" stroke-width="4.922" stroke-linecap="round"></path>
+                        <path d="M46.0425641,148.13265 C46.0425641,148.13265 109.392991,155.411282 109.392991,77.3309402" id="Stroke-9" stroke="#574F92" stroke-width="4.118" stroke-linecap="round"></path>
+                        <path d="M126.171624,44.2747009 C126.171624,53.054188 119.055385,60.1704274 110.275897,60.1704274 C101.49641,60.1704274 94.3784615,53.054188 94.3784615,44.2747009 C94.3784615,35.4952137 101.49641,28.3789744 110.275897,28.3789744 C119.055385,28.3789744 126.171624,35.4952137 126.171624,44.2747009 Z" id="Stroke-11" stroke="#F16521" stroke-width="3.663" stroke-linecap="round"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-14"></g>
+                        <polygon id="Stroke-13" stroke="#574F92" stroke-width="4.046" mask="url(#mask-2)" points="38.8803419 103.964103 63.4700855 103.964103 63.4700855 79.374359 38.8803419 79.374359"></polygon>
+                    </g>
+                    <path d="M99.6798103,5.15478462 C47.7533276,5.15478462 5.50856897,47.4658615 5.50856897,99.4738615 C5.50856897,151.483554 47.7533276,193.794631 99.6798103,193.794631 C151.606293,193.794631 193.851052,151.483554 193.851052,99.4738615 C193.851052,47.4658615 151.606293,5.15478462 99.6798103,5.15478462 M99.6798103,197.307862 C45.8186724,197.307862 1.99915517,153.419554 1.99915517,99.4738615 C1.99915517,45.5281692 45.8186724,1.64155385 99.6798103,1.64155385 C153.540948,1.64155385 197.360466,45.5281692 197.360466,99.4738615 C197.360466,153.419554 153.540948,197.307862 99.6798103,197.307862" id="Fill-1" stroke="#574F92" fill="#574F92"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

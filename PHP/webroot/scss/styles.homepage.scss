@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/*
+=========================================================================================
+ CKD • Home Page Styles
+=========================================================================================
+=========================================================================================
+*/
+@import "website/variables"; // <– Our varibles and declarations, that may trickle into the Primitive framework
+body {
+  background-position: -100px -480px;
+  }
+
+.flex-vertical .flex-fill {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  }
+.flex-vertical .flex-fill.top {
+  flex: 1 1 0;
+  }
+.flex-vertical .flex-fill.mid {
+  flex: 4 1 0;
+  }
+.flex-vertical .flex-fill.bot {
+  flex: 1 1 0;
+  }
+
+@media screen and (max-width: 500px) {
+  .flex-vertical .flex-fill.top {
+    display: none;
+    }
+  .flex-vertical .flex-fill.mid {
+    flex: 10 1 0;
+    }
+  .flex-vertical .flex-fill.bot {
+    display: none;
+    }
+}
+@media screen and (max-height: 565px) {
+  .flex-vertical .flex-fill.top {
+    display: none;
+    }
+  .flex-vertical .flex-fill.mid {
+    margin-top: 20px;
+    }
+  .flex-vertical .flex-fill.bot {
+    display: none;
+    }
+}
+@media screen and (max-height: 565px) {
+  .flex-vertical .flex-fill.top {
+    /*display: none;*/
+    }
+  .flex-vertical .flex-fill.mid {
+    flex: 10 1 0;
+    }
+  .flex-vertical .flex-fill.bot {
+    display: none;
+    }
+}
+@media screen and (max-height: 565px) {
+  .flex-vertical .flex-fill.top {
+    display: none;
+    }
+  .flex-vertical .flex-fill.mid {
+    margin-top: 20px;
+    }
+  .flex-vertical .flex-fill.bot {
+    display: none;
+    }
+}
+
+#main-section {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+  max-width: 700px;
+  margin: 0 auto;
+  }
+#ckd-logo {
+  width: 205px;
+  padding: 0 0;
+  margin: 0 auto $base-metric auto;
+  }
+#footer-nav {
+  max-width: 650px;
+  margin: $base-metric auto;
+  }
+#main-footer {
+  display: none;
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+  #ckd-logo {
+    width: 130px;
+    margin: $base-metric 0px;
+    }
+  #ckd-logo+h2 {
+    margin-bottom: 0;
+    }
+  #footer-nav {
+    margin-bottom: $base-metric-mobile;
+    }
+    /*
+  #main-footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    }
+  #main-footer .flex-small {
+    padding-left: 0;
+    padding-right: 0;
+    }
+  */
+  #main-section #footer-nav {
+    margin: $base-metric-mobile 0px;
+    margin-left: 0px;
+    }
+  .flex-vertical .flex-fill.top {
+    display: none;
+    }
+  .flex-fill h2, .flex-fill p {
+    text-align: left;
+    justify-content: left;
+    margin-left: 0px;
+    }
+  .vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
+
+  #footer-nav .nav-item a, 
+  .nav-item, .nav-item a {
+    color: $text-orange;
+    }
+}
+
+@media screen and (max-height: 675px) {
+  /*
+  #main-section {
+    height: 80vh;
+    max-height: 80vh;
+    }
+  #main-footer {
+    position: relative;
+    }
+  */
+}

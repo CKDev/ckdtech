@@ -1,0 +1,92 @@
+// -----------------------------------------------------------------------
+// Website SCSS Variables
+
+
+// Base Metrics
+$base-metric:				2.1875rem !default; // -> would yield about 35px
+$base-metric-mobile:		1.875rem !default; // -> would yield about 30px
+$padding-base: 				$base-metric;
+$margin-base: 				$base-metric;
+$padding-mobile: 			$base-metric-mobile;
+$margin-mobile: 			$base-metric-mobile;
+
+$layout-padding-top:		80px !default;
+$layout-padding-bottom:		80px !default;
+$layout-nav-drawer-w:		200px !default; // navigation drawer width
+
+
+// Breakpoints - these are used by the Primitive variable file and related sass
+$screen-sm-x: 				 600px;
+$screen-sm: 				 800px;
+$screen-md: 				1000px;
+$screen-lg: 				1200px;
+$screen-lg-x: 				1600px;
+
+
+// Colors - these are used by the Primitive variable file and related SASS
+// Colors in Primitive that need to be declared:
+/*
+$background: 				$color-brand-light;
+$primary-color: 			$color-brand-dark;
+$secondary-color: 			$color-brand-orange;
+$accent-color: 				#cdcdcd;
+$alternate-background: 		$color-brand-dark;
+$alternate-color: 			$color-brand-light;
+$link-color: 				$primary-color;
+$link-hover-color: 			$color-brand-orange; // darken($link-color, 15%);
+$highlight: 				$color-brand-orange;
+$error:						#D33C40;
+$bq-border:					16px solid #f0f0f0;
+*/
+
+$color-brand-light:			#231E49 !default; // <– branded violet/purple background
+$color-brand-dark:			#1D1842 !default; // <– branded darker violet/purple background
+$color-brand-dimmed:		#574F92 !default; // <– branded violet/purple, lighter in color
+$color-brand-orange: 		#F16522 !default; // <– branded orange, used in highlights and hovers/active states
+$color-brand-accent:		#cdcdcd !default; // <– added 'accent' color, used in Primitive framework
+$color-brand-errors: 		#d33c40 !default; // <– added 'error' color, used in Primitive framework
+
+$color-white: 				#ffffff !default;
+$color-black: 				#000000 !default;
+$color-black-50: 			#666666 !default;
+$color-grey:				#cecece !default;
+$color-dark: 				#333c42 !default;
+$color-orange: 				$color-brand-orange !default;
+
+$bkgd-white: 				$color-white;
+$bkgd-black: 				$color-black;
+$bkgd-black-50: 			$color-black-50;
+$bkgd-dark: 				$color-dark;
+$layout-bkgd-light:			$color-brand-light;
+$layout-bkgd-dark:			$color-brand-dark;
+
+$text-white: 				$color-white;
+$text-black: 				$color-black;
+$text-black-50: 			$color-black-50;
+$text-dark: 				$color-dark;
+$text-orange: 				$color-brand-orange;
+$text-light: 				$text-white;
+
+
+// Fonts - these are used by the Primitive variable file and related SASS
+$font-family-base:  		"neo-sans", "Open Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Verdana, "Arial", sans-serif !default;
+$font-family-headers: 		"neo-sans", "Open Sans", "Helvetica Neue", Helvetica, Verdana, "Arial", sans-serif !default;
+
+// Mobile Headings
+$h1-sm: 					1.75rem;
+$h2-sm: 					1.5rem;
+$h3-sm:						1.25rem;
+$h4-sm: 					1.1rem;
+$h5-sm:						1rem;
+
+// Heading font size
+$h1: 						3.75rem;
+$h2: 						2.35rem;
+$h3: 						1.45rem;
+$h4: 						1.0rem;
+$h5: 						1.0rem;
+
+
+// -----------------------------------------------------------------------
+// END OF FILE
+// -----------------------------------------------------------------------

@@ -1,0 +1,146 @@
+/* Variables
+ * ===============
+ * All variables and most of the configuration is defined on this page. */
+
+// -----------------------------------------------------------------------
+// Containers • removed alternative variable names from various files ('small', 'x-small', 'medium', 'large', 'x-large') */
+$sm-x:						$screen-sm-x;
+$sm: 						$screen-sm;
+$md: 						$screen-md;
+$lg: 						$screen-lg;
+$lg-x: 						$screen-lg-x;
+
+
+// -----------------------------------------------------------------------
+// Breakpoints • re-written variable names
+$breakpoint-mobile: 		$sm-x;
+$breakpoint-tablet: 		$sm;
+$breakpoint-desktop: 		$md;
+
+
+/* Colors */
+$background: 				$color-brand-light;
+$primary-color: 			$color-brand-light;
+$secondary-color: 			$color-brand-orange;
+$accent-color: 				$color-brand-accent;
+$alternate-background: 		$color-brand-light;
+$alternate-color: 			$color-brand-light;
+$link-color: 				$text-white;
+$link-hover-color: 			$text-orange; // darken($link-color, 15%);
+$highlight: 				$text-orange;
+$error:						$color-brand-errors; 
+$bq-border:					16px solid #f0f0f0;
+
+
+// -----------------------------------------------------------------------
+// Typography
+// Body font
+$font-family:				$font-family-base;
+$font-color:				$text-white;
+$font-weight:				normal;
+$line-height: 				1.6;
+$font-variant:				normal;
+$font-size:					1rem;
+$body-font-size:			1rem;
+$font-style:				normal;
+
+// Headings
+$heading-font-family: 		$font-family-headers;
+$heading-font-color: 		$text-white;
+$heading-font-weight: 		700;
+$heading-line-height: 		1.2;
+
+// Mobile Headings
+$h1-mobile: 				$h1-sm;
+$h2-mobile: 				$h2-sm;
+$h3-mobile: 				$h3-sm;
+$h4-mobile: 				$h4-sm;
+$h5-mobile:					$h5-sm;
+
+// Heading font size
+$h1: 						$h1;
+$h2: 						$h2;
+$h3: 						$h3;
+$h4: 						$h4;
+$h5: 						$h5;
+
+
+// -----------------------------------------------------------------------
+// Padding
+$padding: 					$padding-base;
+$margins:					$margin-base;
+$content-padding:			$padding-base 0;
+$content-padding-mobile: 	$padding-base 0;
+
+
+// -----------------------------------------------------------------------
+// Borders
+$border-width:				1px;
+$border-style:				solid;
+$border-color: 				$primary-color;
+$border-radius:				0px;
+$borders:					$border-width $border-style $border-color;
+$border:					$borders;
+
+
+// -----------------------------------------------------------------------
+// Buttons
+$button-background:			$primary-color;
+$button-background-hover:	darken($button-background, 10%);
+$button-color:				#ffffff;
+$button-font-weight:		600;
+$button-font-family:		$font-family-base;
+$button-font-size:			1rem;
+$button-border-width:		1px;
+$button-border-style:		solid;
+$button-border-color:		$button-background;
+$button-border-radius:		$border-radius;
+$button-text-transform:		none;
+
+// Accent buttons
+$accent-button-background:	$secondary-color;
+$accent-button-color:		#ffffff;
+$accent-button-color-hover:	#ffffff;
+ 
+// Muted Buttons
+$muted-border:				1px solid $accent-color;
+$muted-border-hover:		1px solid darken($accent-color, 30%);
+$muted-background:			transparent;
+$muted-background-hover:	transparent;
+$muted-color:				darken($accent-color, 50%);
+$muted-color-hover:			darken($accent-color, 50%);
+
+// Round Buttons   
+$round-buttons:				40px; 
+
+
+// -----------------------------------------------------------------------
+// Forms
+$forms:						('[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea');
+$buttons:					('.button, a.button, button, [type=submit], [type=reset], [type=button]');
+$input-background:			$color-white;
+$input-color: $color-brand-light;
+$placeholder:				$text-orange;; // darken($accent-color, 20%);
+$form-border:				1px solid $border-color;
+$form-border-hover:			1px solid darken($border-color, 10%);
+$form-border-focus:			1px solid $color-orange; 
+ 
+
+// -----------------------------------------------------------------------
+// Tables
+$stripes:					#f8f8f8;
+$caption:					#ababab;
+
+
+// -----------------------------------------------------------------------
+// Code
+$code-color:				$font-color;
+$code-size:					0.875rem;
+$code-family:				Menlo, monospace;
+$code-background:			transparent;
+$code-borders:				$borders;
+
+
+// -----------------------------------------------------------------------
+// END OF FILE
+// -----------------------------------------------------------------------

@@ -1,0 +1,18 @@
+//
+// Mixin: Transform
+// ---------------------------------------------------------------------------------------
+// ie. @include transform(rotate(30deg));
+@mixin transform( $property ) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+// ie. @include transition( opacity 1s ease );
+@mixin transition( $property ) {
+	 -webkit-transition: $property;
+		-moz-transition: $property;
+		 -ms-transition: $property;
+		  -o-transition: $property;
+			 transition: $property;
+}

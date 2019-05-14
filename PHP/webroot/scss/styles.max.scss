@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+=========================================================================================
+ CKD • Website Styles
+=========================================================================================
+=========================================================================================
+*/
+// VARIABLES
+// Configuration Variables & Mixins
+// --------------------------------------------------------------------------------------
+@import "website/variables"; // <– Our varibles and declarations, that may trickle into the Primitive framework
+
+@import "primitive/base/variables"; // <- Primitive's base inherites variables from above...
+@import "primitive/base/mixins";
+
+
+// RESET
+// --------------------------------------------------------------------------------------
+@import "primitive/base/normalize";
+@import "primitive/base/reset";
+
+
+// COMPONENTS
+// --------------------------------------------------------------------------------------
+@import "primitive/components/scaffolding";
+@import "primitive/components/grid";
+@import "primitive/components/helpers";
+@import "primitive/components/buttons";
+@import "primitive/components/forms";
+@import "primitive/components/tables";
+@import "primitive/components/navigation"; 
+@import "primitive/components/layout";
+
+
+// WEBSITE
+// Website specific styles
+// --------------------------------------------------------------------------------------
+@import "fontawesome/fontawesome";
+@import "fontawesome/regular";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+@import "website/website"; // <– this will included layout & component styles
+
+

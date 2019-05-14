@@ -1,0 +1,8 @@
+//
+// Mixin: Font-Color, with opacity
+// ---------------------------------------------------------------------------------------
+// 
+@mixin font-color($color, $opacity: 1.00) {
+	color: $color;
+	color: rgba($color, $opacity);
+}

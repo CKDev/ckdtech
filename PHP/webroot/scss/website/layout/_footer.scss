@@ -1,0 +1,40 @@
+// --------------------------------------------------------
+// Footer - bottom element of the layout, containing additional navigation and copyright information
+// #main-footer
+
+
+
+// <footer>
+#main-footer { // 
+	margin-top: 175px;
+	margin-bottom: $margin-base;
+
+	#firepoint-logo {
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	#firepoint-logo+p {
+		margin-top: 0px;
+	}
+}
+
+// --------------------------------------------------------
+// --- Mobile ---------------------------------------------
+@media (max-width: $screen-sm-x) {
+	#main-footer {
+		margin-top: $margin-mobile;
+		margin-bottom: $margin-mobile;
+		text-align: left;
+
+		#firepoint-logo {
+			margin-top: 5px;
+			padding: 0 0;
+			}
+		#firepoint-logo+p {
+			margin-top: -5px;
+			}
+		p {
+			font-size: 0.875rem;
+			}
+	}
+}

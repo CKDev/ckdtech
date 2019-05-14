@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="197px" height="197px" viewBox="0 0 197 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Gears</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.65451453 199.346552 0.65451453 199.346552 200.273504 0 200.273504"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CKD-Home-Process" transform="translate(-558.000000, -2607.000000)">
+            <g id="Connect-With-CKD" transform="translate(557.000000, 2593.000000)">
+                <g id="Collaborative-Build">
+                    <g id="Connect" transform="translate(0.000000, 12.000000)">
+                        <g id="Group-8" stroke-width="1" fill-rule="evenodd" transform="translate(3.000000, 3.000000)">
+                            <g id="Group-7">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-6"></g>
+                            </g>
+                        </g>
+                        <path d="M115.727748,102.328468 C115.727748,111.582523 108.226847,119.083423 98.9727928,119.083423 C89.7169369,119.083423 82.216036,111.582523 82.216036,102.328468 C82.216036,93.0744144 89.7169369,85.5735135 98.9727928,85.5735135 C108.226847,85.5735135 115.727748,93.0744144 115.727748,102.328468 Z" id="Stroke-3" stroke="#F16521" stroke-width="3.663" stroke-linecap="round"></path>
+                        <rect id="Rectangle" stroke="#574F92" stroke-width="4" fill-rule="nonzero" x="70" y="74" width="57" height="57"></rect>
+                        <rect id="Rectangle" stroke="#574F92" stroke-width="4" fill-rule="nonzero" x="39" y="43" width="119" height="119"></rect>
+                        <rect id="Rectangle" stroke="#574F92" stroke-width="4" fill-rule="nonzero" transform="translate(98.500000, 102.500000) rotate(45.000000) translate(-98.500000, -102.500000) " x="57" y="61" width="83" height="83"></rect>
+                        <path d="M99.6798103,6.15478462 C47.7533276,6.15478462 5.50856897,48.4658615 5.50856897,100.473862 C5.50856897,152.483554 47.7533276,194.794631 99.6798103,194.794631 C151.606293,194.794631 193.851052,152.483554 193.851052,100.473862 C193.851052,48.4658615 151.606293,6.15478462 99.6798103,6.15478462 M99.6798103,198.307862 C45.8186724,198.307862 1.99915517,154.419554 1.99915517,100.473862 C1.99915517,46.5281692 45.8186724,2.64155385 99.6798103,2.64155385 C153.540948,2.64155385 197.360466,46.5281692 197.360466,100.473862 C197.360466,154.419554 153.540948,198.307862 99.6798103,198.307862" id="Fill-1" stroke="#574F92" stroke-width="1" fill="#574F92" fill-rule="evenodd"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

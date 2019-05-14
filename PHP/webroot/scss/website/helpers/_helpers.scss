@@ -1,0 +1,124 @@
+// --------------------------------------------------------
+// Helpers
+
+.hidden-mobile, .hidden-sm-x {
+	
+	}
+@media (max-width: $screen-sm-x) {
+	.hidden-mobile, .hidden-sm-x {
+		display: none;
+		}
+}
+
+.hidden-desktop {
+	display: none;
+	}
+@media (max-width: $screen-sm-x) {
+	.hidden-desktop {
+		display: initial;
+		}
+}
+
+
+.more {
+	/*
+	visibility: hidden;
+	opacity: 0;
+	*/
+	 -webkit-transition: visibility 250ms ease, opacity 250ms ease;
+		-moz-transition: visibility 250ms ease, opacity 250ms ease;
+		  -o-transition: visibility 250ms ease, opacity 250ms ease;
+		 -ms-transition: visibility 250ms ease, opacity 250ms ease;
+			 transition: visibility 250ms ease, opacity 250ms ease;
+	}
+/*
+.show-more .more {
+	visibility: visible;
+	opacity: 1.0;
+	}
+*/
+@media (max-width: $screen-sm-x) {
+	/*
+	.more {
+		visibility: visible;
+		opacity: 1.0;
+	}
+	*/
+}
+
+.more-toggle {
+	position: relative;
+	color: $text-orange;
+	font-size: 1.5rem;
+	text-decoration: none;
+	border: none;
+	display: block;
+	line-height: 0;
+	
+display: none;
+	
+	&:hover {
+		text-decoration: none;
+		border: none;
+	}
+	&::before {
+		position: absolute;
+		top: 20px; left: 0;
+		padding: 5px 5px;
+		margin: -5px -5px;
+		white-space: pre;
+		line-height: 0;
+		visibility: visible;
+		opacity: 1.0;
+	}
+	&::after {
+		clear: both;
+	}
+	&.reveal::before {
+		content: "\A +";
+		// transition-delay: 3s !important;
+		 -webkit-transition: visibility 250ms ease, opacity 250ms ease;
+			-moz-transition: visibility 250ms ease, opacity 250ms ease;
+			  -o-transition: visibility 250ms ease, opacity 250ms ease;
+			 -ms-transition: visibility 250ms ease, opacity 250ms ease;
+				 transition: visibility 250ms ease, opacity 250ms ease;
+	}
+	&.un-reveal::before {
+		content: "";
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+@media (max-width: $screen-sm-x) {
+	.more-toggle { 
+		display: none;
+	}
+}
+
+// flex-content tweak
+.pull-right {
+	.more-toggle {
+		&::before {
+			left: initial;
+			right: 0;
+		}
+	}
+}
+
+.show-more .more-toggle {
+	&.reveal {
+		display: none;
+	}
+	&.reveal::before {
+		content: "";
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	&.un-reveal::before {
+		content: "\A –";
+		font-weight: bold;
+		visibility: visible;
+		opacity: 1.0;
+	}
+}

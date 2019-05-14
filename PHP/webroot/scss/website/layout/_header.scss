@@ -1,0 +1,48 @@
+// --------------------------------------------------------
+// Header - top element of the layout, containing the #main-nav
+// #main-header
+
+
+
+// <header>
+#main-header { // 
+	//margin-top: $margin-base;
+	padding-top: $margin-base;
+	margin-bottom: 115px;
+	
+	#ckd-logo-wrap {
+		#ckd-logo {
+			width: 150px;
+			margin: 0px auto;
+
+			img {
+				width: 100%;
+			}
+			img.svg {
+
+			}
+		}
+	}
+}
+
+// --------------------------------------------------------
+// --- Mobile ---------------------------------------------
+@media (max-width: $screen-sm-x) {
+	#main-header { // 
+		margin-bottom: $margin-mobile;
+		text-align: left;
+
+		#ckd-logo-wrap {
+			flex-basis: 50%;
+
+			#ckd-logo {
+				width: 70px;
+				margin: 0px 0px;
+			}
+		}
+
+		#nav-toggle {
+			flex-basis: 50%;
+		}
+	}
+}
