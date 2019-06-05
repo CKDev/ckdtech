@@ -32,7 +32,7 @@ include_once('includes/layout-header.php'); ?>
 <!-- INTRO -->
 			<div class="flex-content | content-row | bkgd-border">
 				<div class="flex-block | flex-center | load-hidden js-reveal">
-					<p>When clients hire CKD they quickly learn that we’re more than just a group of perceptive and meticulous technologists. CKD is a package deal—a team that includes dedicated strategists, designers, and programmers that are committed to each other as much as they are committed to their clients’ missions and tech needs. CKD’s commitment to autonomy, creative freedom, and a social community inspires our team to deepen their expertise, explore complex problems, and work to support each other so that they can succeed individually. And that individual success ultimately leads to our collective success as a company.</p>
+					<p>When clients hire CKD they quickly learn that we’re more than just a group of perceptive and meticulous technologists. CKD is a package deal — a team that includes dedicated strategists, designers, and programmers that are committed to each other as much as they are committed to their clients’ missions and tech needs. CKD’s commitment to autonomy, creative freedom, and a social community inspires our team to deepen their expertise, explore complex problems, and work to support each other so that they can succeed individually. And that individual success ultimately leads to our collective success as a company.</p>
 				</div>
 			</div>
 			<div class="flex-content | content-row | flex-spacer">
@@ -150,7 +150,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-left | text | load-hidden js-reveal-step">
 					<h4>WHAT SETS US APART</h4>
 					<h2>The<br />Benefits</h2>
-					<p>Employees find that our compensation package is comparative to that of our bigger competitors but lacks the unspoken expectation to produce at an unhealthy pace. We want our staff to be fulfilled! Our onsite wellness coach helps see to that by cooking healthy, delicious meals 
+					<p>Employees find that our compensation package is comparable to that of our bigger competitors but lacks the unspoken expectation to produce at an unhealthy pace. We want our staff to be fulfilled! Our onsite wellness coach helps see to that by cooking healthy, delicious meals 
 						<a class="more-toggle | reveal"></a><span class="more">every day, and offering regular yoga and exercise classes. And because we pride ourselves on hiring the most curious minds in the business, we maintain a solid budget for continuing education. Finally, our “Employee Advisory Fellowship,” is a monthly opportunity for employees to sit in on key strategic and budget reviews, because we want our staff to have a seat at the leadership table.
 						<a class="more-toggle | un-reveal"></a></span></p>
 				</div>
@@ -165,7 +165,7 @@ include_once('includes/layout-header.php'); ?>
 					<h4>LOOKING FOR A JOB</h4>
 					<h2>Work<br />With us</h2>
 					<p>Want to know more about working for CKD?</p>
-					<a href="/contact">APPLY ›</a>
+					<a href="mailto:careers@ckdtech.co?subject=Careers Inquiry">APPLY ›</a>
 				</div>
 				<div class="flex-article | pull-left | image | load-hidden js-reveal-step">
 					<figure class="animate">

@@ -20,13 +20,13 @@
 
 			<!-- Fixed Navigation Links -->
 			<div class="hidden-mobile | text-left | nav-item nav-process" id="nav-process">
-				<a href="/process" <?php echo ($active_link=='process') ? 'class="active"' : null; ?>>Process</a>
+				<a href="/process">Process</a>
 			</div>
 			<div class="hidden-mobile | text-right | nav-item nav-philosophy" id="nav-philosophy">
-				<a href="/philosophy" <?php echo ($active_link=='philosophy') ? 'class="active"' : null; ?>>Philosophy</a>
+				<a href="/philosophy">Philosophy</a>
 			</div>
 			<div class="hidden-mobile | text-left | nav-item nav-contact" id="nav-contact">
-				<a href="/contact" <?php echo ($active_link=='contact') ? 'class="active"' : null; ?>>Contact Us</a>
+				<a href="/contact">Contact Us</a>
 			</div>
 			<!--
 			<div class="hidden-mobile | text-right | nav-item nav-playground" id="nav-playground">

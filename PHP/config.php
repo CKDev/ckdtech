@@ -1,5 +1,25 @@
 <?php
 # -------------------------------------------------------------------------------------- #
+# FORCE WWW
+# -------------------------------------------------------------------------------------- #
+//if(stristr($_SERVER['HTTP_HOST'], 'www.') === false && stristr($_SERVER['HTTP_HOST'], 'ckd-staging.') === false){
+//	header('HTTP/1.1 301 Moved Permanently');
+//	header('Location: https://www.ckdtech.co' . $_SERVER['REQUEST_URI']);
+//	exit;
+//}
+# -------------------------------------------------------------------------------------- #
+# FORCE HTTPS
+# -------------------------------------------------------------------------------------- #
+if($_SERVER['HTTPS'] === 'off'){
+	header('Location: https://www.ckdtech.co' . $_SERVER['REQUEST_URI']);
+	exit;
+}
+//if(stripos($_SERVER['SERVER_PROTOCOL'], 'https') !== true && stristr($_SERVER['HTTP_HOST'], 'ckd-staging.') === false){
+//	header('Location: https://www.ckdtech.co' . $_SERVER['REQUEST_URI']);
+//	exit;
+//}
+
+# -------------------------------------------------------------------------------------- #
 # CONFIGURATION
 # -------------------------------------------------------------------------------------- #
 

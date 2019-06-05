@@ -5328,6 +5328,7 @@ body.mobile-menu-open #content-mask {
   text-transform: uppercase;
   padding: 10px 15px;
   margin: -10px -15px;
+  white-space: nowrap;
   -webkit-transition: color 250ms ease;
   -moz-transition: color 250ms ease;
   -o-transition: color 250ms ease;

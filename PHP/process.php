@@ -44,7 +44,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-right | image | load-hidden js-reveal-step">
 					<figure class="animate">
 	<!-- /animate/ -->
-						<div class="exploration component keyframe1" data-initial-state="keyframe1">
+						<div class="exploration component">
 						  <img class="stroke1" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc740a6cbab4c000978a584/img/exploration-stroke-1@2x.png"/>
 						  <img class="stroke4" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc740a6cbab4c000978a584/img/exploration-stroke-4@2x.png"/>
 						  <img class="fill1" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc740a6cbab4c000978a584/img/exploration-fill-1@2x.png"/>
@@ -54,7 +54,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-left | text | load-hidden js-reveal-step">
 					<h4>STEP 1</h4>
 					<h2>Project<br />Exploration</h2>
-					<p>Thanks to our experienced and capable cross-functional teams,  CKD can offer innovation across multiple industries, including healthcare, e-commerce, and nonprofit sectors. Our dynamic team of strategists, <a class="more-toggle | reveal"></a><span class="more">designers, and programmers know that in order to create impactful and transformative technology solutions you’ll probably end up with a few detours on your tech roadmap. And so, as an essential first step to every job, we collaborate with every client to explore their project from all angles to ensure that we are working on the right solution for the right puzzle.<a class="more-toggle | un-reveal"></a></span></p>
+					<p>Thanks to our experienced and capable cross-functional teams, CKD can offer innovation across multiple industries, including healthcare, e-commerce, and nonprofit sectors. Our dynamic team of strategists, <a class="more-toggle | reveal"></a><span class="more">designers, and programmers know that in order to create impactful and transformative technology solutions you’ll probably end up with a few detours on your tech roadmap. And so, as an essential first step to every job, we collaborate with every client to explore their project from all angles to ensure that we are working on the right solution for the right puzzle.<a class="more-toggle | un-reveal"></a></span></p>
 				</div>
 			</div>
 			<div class="flex-content | content-row | flex-spacer">
@@ -84,7 +84,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-right | text | load-hidden js-reveal-step">
 					<h4>STEP 2</h4>
 					<h2>Strategic<br />Blueprint</h2>
-					<p>By digging deep into a project’s purpose, we determine the smartest steps forward. Our team is lean, but we attract the very best designers and programmers, well-trained and -versed in the latest advancements <a class="more-toggle | reveal"></a><span class="more">in technology—from responsive programming to reactive systems, front- and back-end development, and everything in between. We create a dynamic plan of action, ever aware that our best work is often about process and exploration.<a class="more-toggle | un-reveal"></a></span></p>
+					<p>By digging deep into a project’s purpose, we determine the smartest steps forward. Our team is lean, but we attract the very best designers and programmers, well-trained and well-versed in the latest advancements <a class="more-toggle | reveal"></a><span class="more">in technology — from responsive programming to reactive systems, front-end and back-end development, and everything in between. We create a dynamic plan of action, ever aware that our best work is often about process and exploration.<a class="more-toggle | un-reveal"></a></span></p>
 				</div>
 			</div>
 			<div class="flex-content | content-row | flex-spacer">
@@ -135,7 +135,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-right | text | load-hidden js-reveal-step">
 					<h4>STEP 4</h4>
 					<h2>Launch<br />& Evolve</h2>
-					<p>CKD provide client support through all phases a project, even when the project is “done.” We provide the training necessary to ensure a successful product launch. And as a company and its needs evolve we <a class="more-toggle | reveal"></a><span class="more">provide the product support and development to keep the product relevant and keep our client at pace with their progressive technology.<a class="more-toggle | un-reveal"></a></span></p>
+					<p>CKD provides client support through all phases of a project, even when the project is “done.” We provide the training necessary to ensure a successful product launch. And as a company and it's needs evolve we <a class="more-toggle | reveal"></a><span class="more">provide the product support and development to keep the product relevant and keep our client at pace with their progressive technology.<a class="more-toggle | un-reveal"></a></span></p>
 				</div>
 			</div>
 			<div class="flex-content | content-row | flex-spacer">
