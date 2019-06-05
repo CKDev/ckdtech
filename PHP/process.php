@@ -44,7 +44,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-right | image | load-hidden js-reveal-step">
 					<figure class="animate">
 	<!-- /animate/ -->
-						<div class="exploration component">
+						<div class="exploration component keyframe1" data-initial-state="keyframe1">
 						  <img class="stroke1" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc740a6cbab4c000978a584/img/exploration-stroke-1@2x.png"/>
 						  <img class="stroke4" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc740a6cbab4c000978a584/img/exploration-stroke-4@2x.png"/>
 						  <img class="fill1" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc740a6cbab4c000978a584/img/exploration-fill-1@2x.png"/>
@@ -96,7 +96,7 @@ include_once('includes/layout-header.php'); ?>
 				<div class="flex-article | pull-right | image | load-hidden js-reveal-step">
 					<figure class="animate">
 	<!-- /animate/ -->
-						<div class="gears component keyframe1" data-initial-state="keyframe1">
+						<div class="gears component">
 						  <div class="group8">
 						    <img class="fill11" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc7be8499b983000a7662ea/img/gears-fill-1@2x.png"/>
 						    <img class="fill3" src="https://anima-uploads.s3.amazonaws.com/5c4f68f436c3b1000a2281d3/5cc740a3cbab4c000978a580/5cc7be8499b983000a7662ea/img/gears-fill-3@2x.png"/>

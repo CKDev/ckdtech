@@ -17,7 +17,8 @@
     "css framework"
   ],
   "dependencies": {
-    "node-sass": "*"
+    "node-sass": "*",
+    "tar": "^2.2.2"
   },
   "scripts": {
     "sass-docs": "node-sass -w -r ./src/scss/ -o ./docs/css/",
